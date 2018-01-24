@@ -9,5 +9,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        MediaPlayer sound1 = MediaPlayer.create(getApplicationContext(), R.raw.sound1);
+        sound1.start();
     }
 }

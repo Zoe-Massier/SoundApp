@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/image1"
+        android:background="@drawable/1"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:id="@+id/ImageView_1"
@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PSYCHOLOGY"
+        android:text="PET SEMATARY"
         android:textSize="40sp"
         android:textColor="@android:color/light_green"
         android:id="@+id/TextView_1"
@@ -27,9 +27,10 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/TextView_1"
+        android:layout_below="@id/Button_1"
         android:layout_centerHorizontal="true"
         android:text="SOUND"
+        android:onClick="message"
 
         />
 
