@@ -30,7 +30,16 @@
         android:layout_below="@id/Button_1"
         android:layout_centerHorizontal="true"
         android:text="SOUND"
-        android:onClick="message"
+    // android:onClick="sound"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Button_2"
+        android:layout_centerHorizontal="true"
+        android:text="EMAIL"
+    // android:onClick="email"
 
         />
 
