@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/1"
+        android:background="drawable/2"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:id="@+id/ImageView_1"
@@ -19,23 +19,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AIEWVULR"
+        android:text="TEXT FOR SOUND APP"
         android:textSize="40sp"
-        android:textColor="@android:color/light_green"
-        android:id="@+id/TextView_1"
+        android:id="@+id/TextView"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/Button_1"
+        android:layout_below="@+id/button_1"
         android:layout_centerHorizontal="true"
         android:text="SOUND"
-        />
+        tools:ignore="UnknownId" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
+        android:id="@+id/textview"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="false"
         android:layout_marginTop="110dp"
@@ -51,7 +50,7 @@
         android:layout_centerVertical="true"
         android:layout_marginTop="110dp"
         android:text="Activity 2"
-        android:onClick="Activity2" />
+        android:onClick="activity2" />
 
 
 
